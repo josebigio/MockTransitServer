@@ -1,0 +1,107 @@
+{
+    "result": [
+        {
+            "lat": 30.270292,
+            "relevance": 1,
+            "lng": -97.739239,
+            "parts": [
+                {
+                    "text": "Downtown",
+                    "id": "neighborhood.37410"
+                },
+                {
+                    "text": "Austin",
+                    "wikidata": "Q16559",
+                    "id": "place.18974382268754850"
+                },
+                {
+                    "text": "78701",
+                    "id": "postcode.8525334259391130"
+                },
+                {
+                    "short_code": "US-TX",
+                    "text": "Texas",
+                    "wikidata": "Q1439",
+                    "id": "region.3818"
+                },
+                {
+                    "short_code": "us",
+                    "text": "United States",
+                    "wikidata": "Q30",
+                    "id": "country.3145"
+                },
+                {
+                    "text": "300 E 9th St",
+                    "id": "address"
+                }
+            ],
+            "address": "300 E 9th St, Austin, Texas 78701, United States"
+        },
+        {
+            "lat": 30.2711,
+            "relevance": 1,
+            "lng": -97.7437,
+            "parts": [
+                {
+                    "text": "78701",
+                    "id": "postcode.8525334259391130"
+                },
+                {
+                    "short_code": "US-TX",
+                    "text": "Texas",
+                    "wikidata": "Q1439",
+                    "id": "region.3818"
+                },
+                {
+                    "short_code": "us",
+                    "text": "United States",
+                    "wikidata": "Q30",
+                    "id": "country.3145"
+                }
+            ],
+            "address": "Austin, Texas, United States"
+        },
+        {
+            "lat": 30.267114,
+            "relevance": 1,
+            "lng": -97.738423,
+            "parts": [
+                {
+                    "short_code": "US-TX",
+                    "text": "Texas",
+                    "wikidata": "Q1439",
+                    "id": "region.3818"
+                },
+                {
+                    "short_code": "us",
+                    "text": "United States",
+                    "wikidata": "Q30",
+                    "id": "country.3145"
+                }
+            ],
+            "address": "78701, Texas, United States"
+        },
+        {
+            "lat": 31.169621,
+            "relevance": 1,
+            "lng": -99.683617,
+            "parts": [
+                {
+                    "short_code": "us",
+                    "text": "United States",
+                    "wikidata": "Q30",
+                    "id": "country.3145"
+                }
+            ],
+            "address": "Texas, United States"
+        },
+        {
+            "lat": 39.381266,
+            "relevance": 1,
+            "lng": -97.922211,
+            "parts": [],
+            "address": "United States"
+        }
+    ],
+    "success": true
+}

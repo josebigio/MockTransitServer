@@ -46,6 +46,12 @@ router.get('/directions/places',function (req,res) {
    res.json(responce);
 });
 
+router.get('/directions/reverse-geocode',function (req,res) {
+    var responce = require('./responces/reverse-geocode.json');
+    console.log(responce);
+   res.json(responce);
+});
+
 router.get('/transit/schedule-info-today-next',function (req,res) {
     var responce = require('./responces/schedule-info-today-next.json');
     console.log(responce);
