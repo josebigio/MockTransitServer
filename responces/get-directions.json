@@ -1,0 +1,845 @@
+{
+    "result": [
+        [
+            {
+                "maneuver": {
+                    "instruction": "depart right  service road",
+                    "type": "depart"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.304412,-97.741405",
+                "distance": 18.1,
+                "way_name": " service road",
+                "bounding_box_data": {
+                    "lowerright_bbox_lat": 0,
+                    "upperleft_bbox_lat": 0,
+                    "lowerright_bbox_lng": 0,
+                    "upperleft_bbox_lng": 0
+                },
+                "start": "30.304571,-97.741367",
+                "polyline": "qz}wDnbqsQ^F",
+                "mode": "walking",
+                "duration": 15.1
+            },
+            {
+                "maneuver": {
+                    "instruction": "turn right West 38th Street",
+                    "type": "turn"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.305181,-97.743101",
+                "distance": 184,
+                "way_name": "West 38th Street",
+                "start": "30.304412,-97.741405",
+                "polyline": "qy}wDvbqsQKZg@nAeBfF",
+                "mode": "walking",
+                "duration": 134.5
+            },
+            {
+                "maneuver": {
+                    "instruction": "turn left North Lamar Boulevard",
+                    "type": "turn"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.304658,-97.743445",
+                "distance": 66.9,
+                "way_name": "North Lamar Boulevard",
+                "start": "30.305181,-97.743101",
+                "polyline": "k~}wDjmqsQhBbA",
+                "mode": "walking",
+                "duration": 48.1
+            },
+            {
+                "transit_info": {
+                    "bikes_allowed": "0",
+                    "offboarding_arrival_time_local": 1486404964,
+                    "route_headsign": "338,338-Lamar/45th-SB",
+                    "onboarding_arrival_time_local": 1486403940,
+                    "exit_stop_name": "1000 LAMAR/10TH",
+                    "onboarding_departure_time": 1486425540.0,
+                    "onboarding_departure_time_local": 1486403940,
+                    "stop_key": "5978capital-metro",
+                    "boarding_stop_name": "3706 LAMAR/38TH",
+                    "offboarding_arrival_time": 1486426564.0,
+                    "route_display_name": "338",
+                    "route_type": "BUS",
+                    "has_wifi": "0",
+                    "trip_key": "1730060capital-metro",
+                    "onboarding_arrival_time": 1486425540.0,
+                    "icon": "http://ridescout.appspot.com/api/providers/capital-metro/icon.png?user_provider_icon=false",
+                    "wheelchair_accessible": "1",
+                    "type": "scheduled",
+                    "stops_transversed": [
+                        {
+                            "arrival_time": "17:59:00",
+                            "stop_sequence": "13",
+                            "stop_id": "5978",
+                            "lat": 30.304705,
+                            "lng": -97.743531,
+                            "stop_name": "3706 LAMAR/38TH",
+                            "departure_time": "17:59:00"
+                        },
+                        {
+                            "arrival_time": "18:00:02",
+                            "stop_sequence": "14",
+                            "stop_id": "2913",
+                            "lat": 30.30282,
+                            "lng": -97.744768,
+                            "stop_name": "3400 LAMAR/34TH",
+                            "departure_time": "18:00:02"
+                        },
+                        {
+                            "arrival_time": "18:00:53",
+                            "stop_sequence": "15",
+                            "stop_id": "695",
+                            "lat": 30.30124,
+                            "lng": -97.74574,
+                            "stop_name": "3120 LAMAR/32ND",
+                            "departure_time": "18:00:53"
+                        },
+                        {
+                            "arrival_time": "18:01:48",
+                            "stop_sequence": "16",
+                            "stop_id": "4125",
+                            "lat": 30.29954,
+                            "lng": -97.74677,
+                            "stop_name": "3004 LAMAR/30TH HALF",
+                            "departure_time": "18:01:48"
+                        },
+                        {
+                            "arrival_time": "18:09:02",
+                            "stop_sequence": "17",
+                            "stop_id": "4153",
+                            "lat": 30.28872,
+                            "lng": -97.75282,
+                            "stop_name": "2400 LAMAR/24TH",
+                            "departure_time": "18:09:02"
+                        },
+                        {
+                            "arrival_time": "18:11:32",
+                            "stop_sequence": "18",
+                            "stop_id": "4155",
+                            "lat": 30.28367,
+                            "lng": -97.75233,
+                            "stop_name": "1900 LAMAR/MARTIN LUTHER KING",
+                            "departure_time": "18:11:32"
+                        },
+                        {
+                            "arrival_time": "18:15:07",
+                            "stop_sequence": "19",
+                            "stop_id": "4090",
+                            "lat": 30.27696,
+                            "lng": -97.75145,
+                            "stop_name": "1200 LAMAR/12TH",
+                            "departure_time": "18:15:07"
+                        },
+                        {
+                            "arrival_time": "18:16:05",
+                            "stop_sequence": "20",
+                            "stop_id": "4088",
+                            "lat": 30.2751,
+                            "lng": -97.75233,
+                            "stop_name": "1000 LAMAR/10TH",
+                            "departure_time": "18:16:05"
+                        }
+                    ],
+                    "headsign_display_name": "Lamar/45th-SB",
+                    "service_alerts": [],
+                    "minutes": 0
+                },
+                "maneuver": {
+                    "instruction": "Board the bus for 338-Lamar/45th-SB at 3706 LAMAR/38TH. Exit at 1000 LAMAR/10TH",
+                    "type": "ride"
+                },
+                "polyline_color": "004A97",
+                "end": "30.2751,-97.75233",
+                "distance": 0,
+                "start": "30.3047,-97.74353",
+                "polyline": "k{}wD`pqsQvJtFxH`ErIjErbAxd@n^aB|h@mDpJlD",
+                "mode": "transit",
+                "trip_offset": false
+            },
+            {
+                "maneuver": {
+                    "instruction": "depart left North Lamar Boulevard",
+                    "type": "depart"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.275948,-97.751834",
+                "distance": 105.4,
+                "way_name": "North Lamar Boulevard",
+                "bounding_box_data": {
+                    "lowerright_bbox_lat": 30.275782,
+                    "upperleft_bbox_lat": 30.2751,
+                    "lowerright_bbox_lng": -97.751739,
+                    "upperleft_bbox_lng": -97.75233
+                },
+                "start": "30.275072,-97.752253",
+                "polyline": "ebxwDpfssQmDsA",
+                "mode": "walking",
+                "duration": 75.9
+            },
+            {
+                "maneuver": {
+                    "instruction": "turn right West 11th Street",
+                    "type": "turn"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.275875,-97.75168",
+                "distance": 16.9,
+                "way_name": "West 11th Street",
+                "start": "30.275948,-97.751834",
+                "polyline": "sgxwD|cssQL]",
+                "mode": "walking",
+                "duration": 12.1
+            },
+            {
+                "maneuver": {
+                    "instruction": "arrive right West 11th Street",
+                    "type": "arrive"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.275875,-97.75168",
+                "distance": 0,
+                "way_name": "West 11th Street",
+                "start": "30.275875,-97.75168",
+                "polyline": "egxwD~bssQ",
+                "mode": "walking",
+                "duration": 0
+            }
+        ],
+        [
+            {
+                "maneuver": {
+                    "instruction": "depart right  service road",
+                    "type": "depart"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.304412,-97.741405",
+                "distance": 18.1,
+                "way_name": " service road",
+                "bounding_box_data": {
+                    "lowerright_bbox_lat": 0,
+                    "upperleft_bbox_lat": 0,
+                    "lowerright_bbox_lng": 0,
+                    "upperleft_bbox_lng": 0
+                },
+                "start": "30.304571,-97.741367",
+                "polyline": "qz}wDnbqsQ^F",
+                "mode": "walking",
+                "duration": 15.1
+            },
+            {
+                "maneuver": {
+                    "instruction": "turn right West 38th Street",
+                    "type": "turn"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.304479,-97.741545",
+                "distance": 15.4,
+                "way_name": "West 38th Street",
+                "start": "30.304412,-97.741405",
+                "polyline": "qy}wDvbqsQKZ",
+                "mode": "walking",
+                "duration": 11.1
+            },
+            {
+                "transit_info": {
+                    "bikes_allowed": "0",
+                    "offboarding_arrival_time_local": 1486405200,
+                    "route_headsign": "803,803 WESTGATE",
+                    "onboarding_arrival_time_local": 1486404420,
+                    "exit_stop_name": "AUSTIN HISTORY CENTER STATION (SB)",
+                    "onboarding_departure_time": 1486426020.0,
+                    "onboarding_departure_time_local": 1486404420,
+                    "stop_key": "5349capital-metro",
+                    "boarding_stop_name": "WEST 38TH STATION (SB)",
+                    "offboarding_arrival_time": 1486426800.0,
+                    "route_display_name": "803",
+                    "route_type": "BUS",
+                    "has_wifi": "0",
+                    "trip_key": "1743993capital-metro",
+                    "onboarding_arrival_time": 1486426020.0,
+                    "icon": "http://ridescout.appspot.com/api/providers/capital-metro/icon.png?user_provider_icon=false",
+                    "wheelchair_accessible": "1",
+                    "type": "scheduled",
+                    "stops_transversed": [
+                        {
+                            "arrival_time": "18:07:00",
+                            "stop_sequence": "11",
+                            "stop_id": "5349",
+                            "lat": 30.304405,
+                            "lng": -97.741594,
+                            "stop_name": "WEST 38TH STATION (SB)",
+                            "departure_time": "18:07:00"
+                        },
+                        {
+                            "arrival_time": "18:12:00",
+                            "stop_sequence": "12",
+                            "stop_id": "5863",
+                            "lat": 30.291145,
+                            "lng": -97.741349,
+                            "stop_name": "UT DEAN KEETON STATION (SB)",
+                            "departure_time": "18:12:00"
+                        },
+                        {
+                            "arrival_time": "18:14:00",
+                            "stop_sequence": "13",
+                            "stop_id": "497",
+                            "lat": 30.286064,
+                            "lng": -97.741815,
+                            "stop_name": "UT WEST MALL STATION (SB)",
+                            "departure_time": "18:14:00"
+                        },
+                        {
+                            "arrival_time": "18:17:00",
+                            "stop_sequence": "14",
+                            "stop_id": "5866",
+                            "lat": 30.279366,
+                            "lng": -97.742545,
+                            "stop_name": "MUSEUM STATION (SB)",
+                            "departure_time": "18:17:00"
+                        },
+                        {
+                            "arrival_time": "18:19:00",
+                            "stop_sequence": "15",
+                            "stop_id": "2738",
+                            "lat": 30.275022,
+                            "lng": -97.744169,
+                            "stop_name": "CAPITOL STATION (SB)",
+                            "departure_time": "18:19:00"
+                        },
+                        {
+                            "arrival_time": "18:20:00",
+                            "stop_sequence": "16",
+                            "stop_id": "2611",
+                            "lat": 30.271057,
+                            "lng": -97.745655,
+                            "stop_name": "AUSTIN HISTORY CENTER STATION (SB)",
+                            "departure_time": "18:20:00"
+                        }
+                    ],
+                    "headsign_display_name": "WESTGATE",
+                    "service_alerts": [],
+                    "minutes": 0
+                },
+                "maneuver": {
+                    "instruction": "Board the bus for 803-WESTGATE at WEST 38TH STATION (SB). Exit at AUSTIN HISTORY CENTER STATION (SB)",
+                    "type": "ride"
+                },
+                "polyline_color": "555555",
+                "end": "30.27106,-97.74565",
+                "distance": 0,
+                "start": "30.30441,-97.74159",
+                "polyline": "oy}wD|cqsQxqAo@v^zAxh@pCbZbIvWfH",
+                "mode": "transit",
+                "trip_offset": false
+            },
+            {
+                "maneuver": {
+                    "instruction": "depart right Guadalupe Street",
+                    "type": "depart"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.270883,-97.745593",
+                "distance": 17,
+                "way_name": "Guadalupe Street",
+                "bounding_box_data": {
+                    "lowerright_bbox_lat": 30.27002,
+                    "upperleft_bbox_lat": 30.27106,
+                    "lowerright_bbox_lng": -97.74939,
+                    "upperleft_bbox_lng": -97.74565
+                },
+                "start": "30.271028,-97.745538",
+                "polyline": "{hwwDp|qsQDBTF",
+                "mode": "walking",
+                "duration": 14.3
+            },
+            {
+                "maneuver": {
+                    "instruction": "turn right West 8th Street",
+                    "type": "turn"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.271724,-97.748529",
+                "distance": 297.1,
+                "way_name": "West 8th Street",
+                "start": "30.270883,-97.745593",
+                "polyline": "_hwwD||qsQ}@tE}@zEa@rBIb@",
+                "mode": "walking",
+                "duration": 213.9
+            },
+            {
+                "maneuver": {
+                    "instruction": "fork slight left West 8th Street",
+                    "type": "fork"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.271739,-97.748791",
+                "distance": 25.8,
+                "way_name": "West 8th Street",
+                "start": "30.271724,-97.748529",
+                "polyline": "gmwwDforsQ@HEN?J@N",
+                "mode": "walking",
+                "duration": 18.5
+            },
+            {
+                "maneuver": {
+                    "instruction": "roundabout left Rio Grande Street",
+                    "type": "roundabout"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.27156,-97.748916",
+                "distance": 23.8,
+                "way_name": "Rio Grande Street",
+                "start": "30.271739,-97.748791",
+                "polyline": "imwwD|prsQDDFDNDBD",
+                "mode": "walking",
+                "duration": 17.1
+            },
+            {
+                "maneuver": {
+                    "instruction": "merge slight right Rio Grande Street",
+                    "type": "merge"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.270041,-97.749468",
+                "distance": 177.1,
+                "way_name": "Rio Grande Street",
+                "start": "30.27156,-97.748916",
+                "polyline": "glwwDtqrsQj@NzA^|A`@hAZ",
+                "mode": "walking",
+                "duration": 127.4
+            },
+            {
+                "transit_info": {
+                    "bikes_allowed": "0",
+                    "offboarding_arrival_time_local": 1486405788,
+                    "route_headsign": "663,663-LA Lake Austin/UT-OB",
+                    "onboarding_arrival_time_local": 1486405688,
+                    "exit_stop_name": "6TH/BAYLOR",
+                    "onboarding_departure_time": 1486427288.0,
+                    "onboarding_departure_time_local": 1486405688,
+                    "stop_key": "1969capital-metro",
+                    "boarding_stop_name": "6TH/RIO GRANDE",
+                    "offboarding_arrival_time": 1486427388.0,
+                    "route_display_name": "663",
+                    "route_type": "BUS",
+                    "has_wifi": "0",
+                    "trip_key": "1747782capital-metro",
+                    "onboarding_arrival_time": 1486427288.0,
+                    "icon": "http://ridescout.appspot.com/api/providers/capital-metro/icon.png?user_provider_icon=false",
+                    "wheelchair_accessible": "1",
+                    "type": "scheduled",
+                    "stops_transversed": [
+                        {
+                            "arrival_time": "18:28:11",
+                            "stop_sequence": "3",
+                            "stop_id": "1969",
+                            "lat": 30.27002,
+                            "lng": -97.74939,
+                            "stop_name": "6TH/RIO GRANDE",
+                            "departure_time": "18:28:11"
+                        },
+                        {
+                            "arrival_time": "18:29:50",
+                            "stop_sequence": "4",
+                            "stop_id": "1971",
+                            "lat": 30.271955,
+                            "lng": -97.754879,
+                            "stop_name": "6TH/BAYLOR",
+                            "departure_time": "18:29:50"
+                        }
+                    ],
+                    "headsign_display_name": "LA Lake Austin/UT-OB",
+                    "service_alerts": [
+                        {
+                            "sup_timestamp": "03/06/2017 11:16:06",
+                            "end": "1489881540",
+                            "start": "1454904000",
+                            "route_type": "3",
+                            "effect": "DETOUR",
+                            "route_id": "663",
+                            "alert_id": "243",
+                            "header_text": "Construction: UT Speedway",
+                            "url": "http://www.capmetro.org/planner",
+                            "stop_id": "5207",
+                            "description_text": "Stop closed temporarily",
+                            "cause": "OTHER_CAUSE"
+                        }
+                    ],
+                    "minutes": 0
+                },
+                "maneuver": {
+                    "instruction": "Board the bus for 663-LA Lake Austin/UT-OB at 6TH/RIO GRANDE. Exit at 6TH/BAYLOR",
+                    "type": "ride"
+                },
+                "polyline_color": "004A97",
+                "end": "30.27196,-97.75488",
+                "distance": 0,
+                "start": "30.27002,-97.74939",
+                "polyline": "qbwwDrtrsQaKha@",
+                "mode": "transit",
+                "trip_offset": false
+            },
+            {
+                "maneuver": {
+                    "instruction": "depart right Baylor Street",
+                    "type": "depart"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.274286,-97.753804",
+                "distance": 278.5,
+                "way_name": "Baylor Street",
+                "bounding_box_data": {
+                    "lowerright_bbox_lat": 30.275782,
+                    "upperleft_bbox_lat": 30.27196,
+                    "lowerright_bbox_lng": -97.751739,
+                    "upperleft_bbox_lng": -97.75488
+                },
+                "start": "30.271987,-97.754953",
+                "polyline": "{nwwDlwssQqBw@uBy@ECgBs@a@QsAi@",
+                "mode": "walking",
+                "duration": 200.5
+            },
+            {
+                "maneuver": {
+                    "instruction": "turn right West 9th Street",
+                    "type": "turn"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.273949,-97.752773",
+                "distance": 105.9,
+                "way_name": "West 9th Street",
+                "start": "30.274286,-97.753804",
+                "polyline": "g}wwDfpssQbAmE",
+                "mode": "walking",
+                "duration": 78.2
+            },
+            {
+                "maneuver": {
+                    "instruction": "turn left North Lamar Boulevard",
+                    "type": "turn"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.275948,-97.751834",
+                "distance": 239.9,
+                "way_name": "North Lamar Boulevard",
+                "start": "30.273949,-97.752773",
+                "polyline": "c{wwDxissQsEaB{DyA",
+                "mode": "walking",
+                "duration": 174.8
+            },
+            {
+                "maneuver": {
+                    "instruction": "turn right West 11th Street",
+                    "type": "turn"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.275875,-97.75168",
+                "distance": 16.9,
+                "way_name": "West 11th Street",
+                "start": "30.275948,-97.751834",
+                "polyline": "sgxwD|cssQL]",
+                "mode": "walking",
+                "duration": 12.1
+            },
+            {
+                "maneuver": {
+                    "instruction": "arrive right West 11th Street",
+                    "type": "arrive"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.275875,-97.75168",
+                "distance": 0,
+                "way_name": "West 11th Street",
+                "start": "30.275875,-97.75168",
+                "polyline": "egxwD~bssQ",
+                "mode": "walking",
+                "duration": 0
+            }
+        ],
+        [
+            {
+                "maneuver": {
+                    "instruction": "depart right  service road",
+                    "type": "depart"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.304412,-97.741405",
+                "distance": 18.1,
+                "way_name": " service road",
+                "bounding_box_data": {
+                    "lowerright_bbox_lat": 0,
+                    "upperleft_bbox_lat": 0,
+                    "lowerright_bbox_lng": 0,
+                    "upperleft_bbox_lng": 0
+                },
+                "start": "30.304571,-97.741367",
+                "polyline": "qz}wDnbqsQ^F",
+                "mode": "walking",
+                "duration": 15.1
+            },
+            {
+                "maneuver": {
+                    "instruction": "turn right West 38th Street",
+                    "type": "turn"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.304479,-97.741545",
+                "distance": 15.4,
+                "way_name": "West 38th Street",
+                "start": "30.304412,-97.741405",
+                "polyline": "qy}wDvbqsQKZ",
+                "mode": "walking",
+                "duration": 11.1
+            },
+            {
+                "transit_info": {
+                    "bikes_allowed": "0",
+                    "offboarding_arrival_time_local": 1486405920,
+                    "route_headsign": "803,803 WESTGATE",
+                    "onboarding_arrival_time_local": 1486405200,
+                    "exit_stop_name": "CAPITOL STATION (SB)",
+                    "onboarding_departure_time": 1486426800.0,
+                    "onboarding_departure_time_local": 1486405200,
+                    "stop_key": "5349capital-metro",
+                    "boarding_stop_name": "WEST 38TH STATION (SB)",
+                    "offboarding_arrival_time": 1486427520.0,
+                    "route_display_name": "803",
+                    "route_type": "BUS",
+                    "has_wifi": "0",
+                    "trip_key": "1743994capital-metro",
+                    "onboarding_arrival_time": 1486426800.0,
+                    "icon": "http://ridescout.appspot.com/api/providers/capital-metro/icon.png?user_provider_icon=false",
+                    "wheelchair_accessible": "1",
+                    "type": "scheduled",
+                    "stops_transversed": [
+                        {
+                            "arrival_time": "18:20:00",
+                            "stop_sequence": "11",
+                            "stop_id": "5349",
+                            "lat": 30.304405,
+                            "lng": -97.741594,
+                            "stop_name": "WEST 38TH STATION (SB)",
+                            "departure_time": "18:20:00"
+                        },
+                        {
+                            "arrival_time": "18:25:00",
+                            "stop_sequence": "12",
+                            "stop_id": "5863",
+                            "lat": 30.291145,
+                            "lng": -97.741349,
+                            "stop_name": "UT DEAN KEETON STATION (SB)",
+                            "departure_time": "18:25:00"
+                        },
+                        {
+                            "arrival_time": "18:27:00",
+                            "stop_sequence": "13",
+                            "stop_id": "497",
+                            "lat": 30.286064,
+                            "lng": -97.741815,
+                            "stop_name": "UT WEST MALL STATION (SB)",
+                            "departure_time": "18:27:00"
+                        },
+                        {
+                            "arrival_time": "18:30:00",
+                            "stop_sequence": "14",
+                            "stop_id": "5866",
+                            "lat": 30.279366,
+                            "lng": -97.742545,
+                            "stop_name": "MUSEUM STATION (SB)",
+                            "departure_time": "18:30:00"
+                        },
+                        {
+                            "arrival_time": "18:32:00",
+                            "stop_sequence": "15",
+                            "stop_id": "2738",
+                            "lat": 30.275022,
+                            "lng": -97.744169,
+                            "stop_name": "CAPITOL STATION (SB)",
+                            "departure_time": "18:32:00"
+                        }
+                    ],
+                    "headsign_display_name": "WESTGATE",
+                    "service_alerts": [],
+                    "minutes": 0
+                },
+                "maneuver": {
+                    "instruction": "Board the bus for 803-WESTGATE at WEST 38TH STATION (SB). Exit at CAPITOL STATION (SB)",
+                    "type": "ride"
+                },
+                "polyline_color": "555555",
+                "end": "30.27502,-97.74417",
+                "distance": 0,
+                "start": "30.30441,-97.74159",
+                "polyline": "oy}wD|cqsQxqAo@v^zAxh@pCbZbI",
+                "mode": "transit",
+                "trip_offset": false
+            },
+            {
+                "maneuver": {
+                    "instruction": "depart straight Guadalupe Street",
+                    "type": "depart"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.274994,-97.744074",
+                "distance": 0,
+                "way_name": "Guadalupe Street",
+                "bounding_box_data": {
+                    "lowerright_bbox_lat": 30.27502,
+                    "upperleft_bbox_lat": 30.27502,
+                    "lowerright_bbox_lng": -97.74417,
+                    "upperleft_bbox_lng": -97.74417
+                },
+                "start": "30.274994,-97.744074",
+                "polyline": "uaxwDlsqsQ??",
+                "mode": "walking",
+                "duration": 0
+            },
+            {
+                "transit_info": {
+                    "bikes_allowed": "0",
+                    "offboarding_arrival_time_local": 1486406196,
+                    "route_headsign": "18,18-Martin Luther King-WB",
+                    "onboarding_arrival_time_local": 1486406076,
+                    "exit_stop_name": "915 12TH/LAMAR",
+                    "onboarding_departure_time": 1486427676.0,
+                    "onboarding_departure_time_local": 1486406076,
+                    "stop_key": "2738capital-metro",
+                    "boarding_stop_name": "CAPITOL STATION (SB)",
+                    "offboarding_arrival_time": 1486427796.0,
+                    "route_display_name": "18",
+                    "route_type": "BUS",
+                    "has_wifi": "0",
+                    "trip_key": "1725223capital-metro",
+                    "onboarding_arrival_time": 1486427676.0,
+                    "icon": "http://ridescout.appspot.com/api/providers/capital-metro/icon.png?user_provider_icon=false",
+                    "wheelchair_accessible": "1",
+                    "type": "scheduled",
+                    "stops_transversed": [
+                        {
+                            "arrival_time": "18:34:39",
+                            "stop_sequence": "32",
+                            "stop_id": "2738",
+                            "lat": 30.275022,
+                            "lng": -97.744169,
+                            "stop_name": "CAPITOL STATION (SB)",
+                            "departure_time": "18:34:39"
+                        },
+                        {
+                            "arrival_time": "18:36:00",
+                            "stop_sequence": "33",
+                            "stop_id": "5787",
+                            "lat": 30.275943,
+                            "lng": -97.74761,
+                            "stop_name": "700 12TH/RIO GRANDE",
+                            "departure_time": "18:36:00"
+                        },
+                        {
+                            "arrival_time": "18:36:39",
+                            "stop_sequence": "34",
+                            "stop_id": "5756",
+                            "lat": 30.276753,
+                            "lng": -97.750729,
+                            "stop_name": "915 12TH/LAMAR",
+                            "departure_time": "18:36:39"
+                        }
+                    ],
+                    "headsign_display_name": "Martin Luther King-WB",
+                    "service_alerts": [
+                        {
+                            "sup_timestamp": "03/06/2017 11:16:06",
+                            "end": "1489881540",
+                            "start": "1454904000",
+                            "route_type": "3",
+                            "effect": "DETOUR",
+                            "route_id": "18",
+                            "alert_id": "243",
+                            "header_text": "Construction: UT Speedway",
+                            "url": "http://www.capmetro.org/planner",
+                            "stop_id": "1181",
+                            "description_text": "Stop closed temporarily",
+                            "cause": "OTHER_CAUSE"
+                        }
+                    ],
+                    "minutes": 0
+                },
+                "maneuver": {
+                    "instruction": "Board the bus for 18-Martin Luther King-WB at CAPITOL STATION (SB). Exit at 915 12TH/LAMAR",
+                    "type": "ride"
+                },
+                "polyline_color": "004A97",
+                "end": "30.27675,-97.75073",
+                "distance": 0,
+                "start": "30.27502,-97.74417",
+                "polyline": "{axwD`tqsQwDnT_DnR",
+                "mode": "transit",
+                "trip_offset": false
+            },
+            {
+                "maneuver": {
+                    "instruction": "depart right West 12th Street",
+                    "type": "depart"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.276897,-97.751398",
+                "distance": 65.9,
+                "way_name": "West 12th Street",
+                "bounding_box_data": {
+                    "lowerright_bbox_lat": 30.275782,
+                    "upperleft_bbox_lat": 30.27675,
+                    "lowerright_bbox_lng": -97.751739,
+                    "upperleft_bbox_lng": -97.75073
+                },
+                "start": "30.276688,-97.750756",
+                "polyline": "glxwDd}rsQi@~B",
+                "mode": "walking",
+                "duration": 49.4
+            },
+            {
+                "maneuver": {
+                    "instruction": "turn left North Lamar Boulevard",
+                    "type": "turn"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.275948,-97.751834",
+                "distance": 113.6,
+                "way_name": "North Lamar Boulevard",
+                "start": "30.276897,-97.751398",
+                "polyline": "qmxwDdassQ|DvA",
+                "mode": "walking",
+                "duration": 81.8
+            },
+            {
+                "maneuver": {
+                    "instruction": "turn left West 11th Street",
+                    "type": "turn"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.275875,-97.75168",
+                "distance": 16.9,
+                "way_name": "West 11th Street",
+                "start": "30.275948,-97.751834",
+                "polyline": "sgxwD|cssQL]",
+                "mode": "walking",
+                "duration": 12.1
+            },
+            {
+                "maneuver": {
+                    "instruction": "arrive right West 11th Street",
+                    "type": "arrive"
+                },
+                "polyline_color": "00AFD7",
+                "end": "30.275875,-97.75168",
+                "distance": 0,
+                "way_name": "West 11th Street",
+                "start": "30.275875,-97.75168",
+                "polyline": "egxwD~bssQ",
+                "mode": "walking",
+                "duration": 0
+            }
+        ]
+    ],
+    "success": true
+}
