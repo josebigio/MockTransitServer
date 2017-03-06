@@ -1,0 +1,728 @@
+{
+    "result": [
+        {
+            "ridescout_simple_stop_key": "863capital-metro",
+            "stop_name": "11TH/SAN JACINTO SW CORNER",
+            "stop_id": "863",
+            "schedule_data": [
+                {
+                    "schedule_key": "863capital-metro10",
+                    "schedule": [
+                        {
+                            "direction_id": "1",
+                            "headsign": "10-South 1st/Red River-NB",
+                            "headsign_schedule": [
+                                {
+                                    "departure_time_local": 1488808810.0,
+                                    "arrival_time": 1488830410.0,
+                                    "trip_id": "1724289",
+                                    "trip_key": "1724289capital-metro",
+                                    "arrival_time_local": 1488808810.0,
+                                    "type": "scheduled",
+                                    "minutes": 11,
+                                    "departure_time": 1488830410.0
+                                },
+                                {
+                                    "departure_time_local": 1488810490.0,
+                                    "arrival_time": 1488832090.0,
+                                    "trip_id": "1724258",
+                                    "trip_key": "1724258capital-metro",
+                                    "arrival_time_local": 1488810490.0,
+                                    "type": "scheduled",
+                                    "minutes": 39,
+                                    "departure_time": 1488832090.0
+                                },
+                                {
+                                    "departure_time_local": 1488812170.0,
+                                    "arrival_time": 1488833770.0,
+                                    "trip_id": "1724260",
+                                    "trip_key": "1724260capital-metro",
+                                    "arrival_time_local": 1488812170.0,
+                                    "type": "scheduled",
+                                    "minutes": 67,
+                                    "departure_time": 1488833770.0
+                                },
+                                {
+                                    "departure_time_local": 1488813550.0,
+                                    "arrival_time": 1488835150.0,
+                                    "trip_id": "1724259",
+                                    "trip_key": "1724259capital-metro",
+                                    "arrival_time_local": 1488813550.0,
+                                    "type": "scheduled",
+                                    "minutes": 90,
+                                    "departure_time": 1488835150.0
+                                },
+                                {
+                                    "departure_time_local": 1488815050.0,
+                                    "arrival_time": 1488836650.0,
+                                    "trip_id": "1724292",
+                                    "trip_key": "1724292capital-metro",
+                                    "arrival_time_local": 1488815050.0,
+                                    "type": "scheduled",
+                                    "minutes": 115,
+                                    "departure_time": 1488836650.0
+                                }
+                            ],
+                            "headsign_display_name": "South 1st/Red River-NB"
+                        }
+                    ],
+                    "route_type": "3",
+                    "route_name": "South 1st/Red River",
+                    "route_id": "10",
+                    "route_display_name": "10"
+                },
+                {
+                    "schedule_key": "863capital-metro111",
+                    "schedule": [
+                        {
+                            "direction_id": "0",
+                            "headsign": "111-South Mopac Flyer-NB",
+                            "headsign_schedule": [],
+                            "headsign_display_name": "South Mopac Flyer-NB"
+                        }
+                    ],
+                    "route_type": "3",
+                    "route_name": "South Mopac Flyer",
+                    "route_id": "111",
+                    "route_display_name": "111"
+                },
+                {
+                    "schedule_key": "863capital-metro127",
+                    "schedule": [
+                        {
+                            "direction_id": "0",
+                            "headsign": "127-Dove Springs Flyer-NB",
+                            "headsign_schedule": [
+                                {
+                                    "departure_time_local": 1488870869.0,
+                                    "minutes": 434,
+                                    "arrival_time": 1488892469.0,
+                                    "type": "scheduled",
+                                    "trip_key": "1724770capital-metro",
+                                    "arrival_time_local": 1488870869.0,
+                                    "date": "20170307",
+                                    "last": true,
+                                    "trip_id": "1724770",
+                                    "departure_time": 1488892469.0
+                                },
+                                {
+                                    "departure_time_local": 1488957269.0,
+                                    "minutes": 434,
+                                    "arrival_time": 1488978869.0,
+                                    "type": "scheduled",
+                                    "trip_key": "1724770capital-metro",
+                                    "arrival_time_local": 1488957269.0,
+                                    "date": "20170308",
+                                    "last": true,
+                                    "trip_id": "1724770",
+                                    "departure_time": 1488978869.0
+                                }
+                            ],
+                            "headsign_display_name": "Dove Springs Flyer-NB"
+                        }
+                    ],
+                    "route_type": "3",
+                    "route_name": "Dove Springs Flyer",
+                    "route_id": "127",
+                    "route_display_name": "127"
+                },
+                {
+                    "schedule_key": "863capital-metro142",
+                    "schedule": [
+                        {
+                            "direction_id": "0",
+                            "headsign": "142-Metric Flyer-NB",
+                            "headsign_schedule": [
+                                {
+                                    "departure_time_local": 1488817439.0,
+                                    "arrival_time": 1488839039.0,
+                                    "trip_id": "1724789",
+                                    "trip_key": "1724789capital-metro",
+                                    "arrival_time_local": 1488817439.0,
+                                    "type": "scheduled",
+                                    "minutes": 155,
+                                    "departure_time": 1488839039.0
+                                },
+                                {
+                                    "departure_time_local": 1488819439.0,
+                                    "arrival_time": 1488841039.0,
+                                    "trip_id": "1724786",
+                                    "trip_key": "1724786capital-metro",
+                                    "arrival_time_local": 1488819439.0,
+                                    "type": "scheduled",
+                                    "minutes": 188,
+                                    "departure_time": 1488841039.0
+                                },
+                                {
+                                    "departure_time_local": 1488821078.0,
+                                    "arrival_time": 1488842678.0,
+                                    "trip_id": "1724788",
+                                    "trip_key": "1724788capital-metro",
+                                    "arrival_time_local": 1488821078.0,
+                                    "type": "scheduled",
+                                    "minutes": 216,
+                                    "departure_time": 1488842678.0
+                                },
+                                {
+                                    "departure_time_local": 1488822878.0,
+                                    "minutes": 246,
+                                    "arrival_time": 1488844478.0,
+                                    "type": "scheduled",
+                                    "trip_key": "1724787capital-metro",
+                                    "arrival_time_local": 1488822878.0,
+                                    "last": true,
+                                    "trip_id": "1724787",
+                                    "departure_time": 1488844478.0
+                                }
+                            ],
+                            "headsign_display_name": "Metric Flyer-NB"
+                        }
+                    ],
+                    "route_type": "3",
+                    "route_name": "Metric Flyer",
+                    "route_id": "142",
+                    "route_display_name": "142"
+                },
+                {
+                    "schedule_key": "863capital-metro171",
+                    "schedule": [
+                        {
+                            "direction_id": "0",
+                            "headsign": "171-Oak Hill Flyer-NB",
+                            "headsign_schedule": [
+                                {
+                                    "departure_time_local": 1488867281.0,
+                                    "arrival_time": 1488888881.0,
+                                    "trip_id": "1725168",
+                                    "trip_key": "1725168capital-metro",
+                                    "arrival_time_local": 1488867281.0,
+                                    "type": "scheduled",
+                                    "date": "20170307",
+                                    "minutes": 374,
+                                    "departure_time": 1488888881.0
+                                },
+                                {
+                                    "departure_time_local": 1488868961.0,
+                                    "arrival_time": 1488890561.0,
+                                    "trip_id": "1725171",
+                                    "trip_key": "1725171capital-metro",
+                                    "arrival_time_local": 1488868961.0,
+                                    "type": "scheduled",
+                                    "date": "20170307",
+                                    "minutes": 402,
+                                    "departure_time": 1488890561.0
+                                },
+                                {
+                                    "departure_time_local": 1488871830.0,
+                                    "arrival_time": 1488893430.0,
+                                    "trip_id": "1725170",
+                                    "trip_key": "1725170capital-metro",
+                                    "arrival_time_local": 1488871830.0,
+                                    "type": "scheduled",
+                                    "date": "20170307",
+                                    "minutes": 450,
+                                    "departure_time": 1488893430.0
+                                },
+                                {
+                                    "departure_time_local": 1488872701.0,
+                                    "arrival_time": 1488894301.0,
+                                    "trip_id": "1725167",
+                                    "trip_key": "1725167capital-metro",
+                                    "arrival_time_local": 1488872701.0,
+                                    "type": "scheduled",
+                                    "date": "20170307",
+                                    "minutes": 465,
+                                    "departure_time": 1488894301.0
+                                },
+                                {
+                                    "departure_time_local": 1488874230.0,
+                                    "arrival_time": 1488895830.0,
+                                    "trip_id": "1725169",
+                                    "trip_key": "1725169capital-metro",
+                                    "arrival_time_local": 1488874230.0,
+                                    "type": "scheduled",
+                                    "date": "20170307",
+                                    "minutes": 490,
+                                    "departure_time": 1488895830.0
+                                }
+                            ],
+                            "headsign_display_name": "Oak Hill Flyer-NB"
+                        }
+                    ],
+                    "route_type": "3",
+                    "route_name": "Oak Hill Flyer",
+                    "route_id": "171",
+                    "route_display_name": "171"
+                },
+                {
+                    "schedule_key": "863capital-metro2",
+                    "schedule": [
+                        {
+                            "direction_id": "1",
+                            "headsign": "2-Rosewood-EB",
+                            "headsign_schedule": [
+                                {
+                                    "departure_time_local": 1488809037.0,
+                                    "arrival_time": 1488830637.0,
+                                    "trip_id": "1725605",
+                                    "trip_key": "1725605capital-metro",
+                                    "arrival_time_local": 1488809037.0,
+                                    "type": "scheduled",
+                                    "minutes": 15,
+                                    "departure_time": 1488830637.0
+                                },
+                                {
+                                    "departure_time_local": 1488810952.0,
+                                    "arrival_time": 1488832552.0,
+                                    "trip_id": "1725606",
+                                    "trip_key": "1725606capital-metro",
+                                    "arrival_time_local": 1488810952.0,
+                                    "type": "scheduled",
+                                    "minutes": 47,
+                                    "departure_time": 1488832552.0
+                                },
+                                {
+                                    "departure_time_local": 1488812752.0,
+                                    "arrival_time": 1488834352.0,
+                                    "trip_id": "1725586",
+                                    "trip_key": "1725586capital-metro",
+                                    "arrival_time_local": 1488812752.0,
+                                    "type": "scheduled",
+                                    "minutes": 77,
+                                    "departure_time": 1488834352.0
+                                },
+                                {
+                                    "departure_time_local": 1488814132.0,
+                                    "arrival_time": 1488835732.0,
+                                    "trip_id": "1725585",
+                                    "trip_key": "1725585capital-metro",
+                                    "arrival_time_local": 1488814132.0,
+                                    "type": "scheduled",
+                                    "minutes": 100,
+                                    "departure_time": 1488835732.0
+                                },
+                                {
+                                    "departure_time_local": 1488815512.0,
+                                    "arrival_time": 1488837112.0,
+                                    "trip_id": "1725584",
+                                    "trip_key": "1725584capital-metro",
+                                    "arrival_time_local": 1488815512.0,
+                                    "type": "scheduled",
+                                    "minutes": 123,
+                                    "departure_time": 1488837112.0
+                                }
+                            ],
+                            "headsign_display_name": "Rosewood-EB"
+                        }
+                    ],
+                    "route_type": "3",
+                    "route_name": "Rosewood",
+                    "route_id": "2",
+                    "route_display_name": "2"
+                },
+                {
+                    "schedule_key": "863capital-metro20",
+                    "schedule": [
+                        {
+                            "direction_id": "0",
+                            "headsign": "20-Manor Rd/Riverside-NB",
+                            "headsign_schedule": [
+                                {
+                                    "departure_time_local": 1488808312.0,
+                                    "arrival_time": 1488829912.0,
+                                    "trip_id": "1725809",
+                                    "trip_key": "1725809capital-metro",
+                                    "arrival_time_local": 1488808312.0,
+                                    "type": "scheduled",
+                                    "minutes": 3,
+                                    "departure_time": 1488829912.0
+                                },
+                                {
+                                    "departure_time_local": 1488809512.0,
+                                    "arrival_time": 1488831112.0,
+                                    "trip_id": "1725808",
+                                    "trip_key": "1725808capital-metro",
+                                    "arrival_time_local": 1488809512.0,
+                                    "type": "scheduled",
+                                    "minutes": 23,
+                                    "departure_time": 1488831112.0
+                                },
+                                {
+                                    "departure_time_local": 1488810712.0,
+                                    "arrival_time": 1488832312.0,
+                                    "trip_id": "1725784",
+                                    "trip_key": "1725784capital-metro",
+                                    "arrival_time_local": 1488810712.0,
+                                    "type": "scheduled",
+                                    "minutes": 43,
+                                    "departure_time": 1488832312.0
+                                },
+                                {
+                                    "departure_time_local": 1488811915.0,
+                                    "arrival_time": 1488833515.0,
+                                    "trip_id": "1725806",
+                                    "trip_key": "1725806capital-metro",
+                                    "arrival_time_local": 1488811915.0,
+                                    "type": "scheduled",
+                                    "minutes": 63,
+                                    "departure_time": 1488833515.0
+                                },
+                                {
+                                    "departure_time_local": 1488813115.0,
+                                    "arrival_time": 1488834715.0,
+                                    "trip_id": "1725821",
+                                    "trip_key": "1725821capital-metro",
+                                    "arrival_time_local": 1488813115.0,
+                                    "type": "scheduled",
+                                    "minutes": 83,
+                                    "departure_time": 1488834715.0
+                                }
+                            ],
+                            "headsign_display_name": "Manor Rd/Riverside-NB"
+                        }
+                    ],
+                    "route_type": "3",
+                    "route_name": "Manor Rd/Riverside",
+                    "route_id": "20",
+                    "route_display_name": "20"
+                },
+                {
+                    "schedule_key": "863capital-metro37",
+                    "schedule": [
+                        {
+                            "direction_id": "1",
+                            "headsign": "37-Colony Park/Windsor Park-NB",
+                            "headsign_schedule": [
+                                {
+                                    "departure_time_local": 1488808810.0,
+                                    "arrival_time": 1488830410.0,
+                                    "trip_id": "1730566",
+                                    "trip_key": "1730566capital-metro",
+                                    "arrival_time_local": 1488808810.0,
+                                    "type": "scheduled",
+                                    "minutes": 11,
+                                    "departure_time": 1488830410.0
+                                },
+                                {
+                                    "departure_time_local": 1488810610.0,
+                                    "arrival_time": 1488832210.0,
+                                    "trip_id": "1730572",
+                                    "trip_key": "1730572capital-metro",
+                                    "arrival_time_local": 1488810610.0,
+                                    "type": "scheduled",
+                                    "minutes": 41,
+                                    "departure_time": 1488832210.0
+                                },
+                                {
+                                    "departure_time_local": 1488812410.0,
+                                    "arrival_time": 1488834010.0,
+                                    "trip_id": "1730544",
+                                    "trip_key": "1730544capital-metro",
+                                    "arrival_time_local": 1488812410.0,
+                                    "type": "scheduled",
+                                    "minutes": 71,
+                                    "departure_time": 1488834010.0
+                                },
+                                {
+                                    "departure_time_local": 1488813610.0,
+                                    "arrival_time": 1488835210.0,
+                                    "trip_id": "1730559",
+                                    "trip_key": "1730559capital-metro",
+                                    "arrival_time_local": 1488813610.0,
+                                    "type": "scheduled",
+                                    "minutes": 91,
+                                    "departure_time": 1488835210.0
+                                },
+                                {
+                                    "departure_time_local": 1488815050.0,
+                                    "arrival_time": 1488836650.0,
+                                    "trip_id": "1730565",
+                                    "trip_key": "1730565capital-metro",
+                                    "arrival_time_local": 1488815050.0,
+                                    "type": "scheduled",
+                                    "minutes": 115,
+                                    "departure_time": 1488836650.0
+                                }
+                            ],
+                            "headsign_display_name": "Colony Park/Windsor Park-NB"
+                        }
+                    ],
+                    "route_type": "3",
+                    "route_name": "Colony Park/Windsor Park",
+                    "route_id": "37",
+                    "route_display_name": "37"
+                },
+                {
+                    "schedule_key": "863capital-metro485",
+                    "schedule": [
+                        {
+                            "direction_id": "0",
+                            "headsign": "485-Night Owl Cameron-NB",
+                            "headsign_schedule": [
+                                {
+                                    "departure_time_local": 1488845562.0,
+                                    "arrival_time": 1488867162.0,
+                                    "trip_id": "1731912",
+                                    "trip_key": "1731912capital-metro",
+                                    "arrival_time_local": 1488845562.0,
+                                    "type": "scheduled",
+                                    "date": "20170307",
+                                    "minutes": 624,
+                                    "departure_time": 1488867162.0
+                                },
+                                {
+                                    "departure_time_local": 1488847662.0,
+                                    "arrival_time": 1488869262.0,
+                                    "trip_id": "1731911",
+                                    "trip_key": "1731911capital-metro",
+                                    "arrival_time_local": 1488847662.0,
+                                    "type": "scheduled",
+                                    "date": "20170307",
+                                    "minutes": 659,
+                                    "departure_time": 1488869262.0
+                                },
+                                {
+                                    "departure_time_local": 1488849762.0,
+                                    "arrival_time": 1488871362.0,
+                                    "trip_id": "1731915",
+                                    "trip_key": "1731915capital-metro",
+                                    "arrival_time_local": 1488849762.0,
+                                    "type": "scheduled",
+                                    "date": "20170307",
+                                    "minutes": 694,
+                                    "departure_time": 1488871362.0
+                                },
+                                {
+                                    "departure_time_local": 1488851862.0,
+                                    "arrival_time": 1488873462.0,
+                                    "trip_id": "1731910",
+                                    "trip_key": "1731910capital-metro",
+                                    "arrival_time_local": 1488851862.0,
+                                    "type": "scheduled",
+                                    "date": "20170307",
+                                    "minutes": 729,
+                                    "departure_time": 1488873462.0
+                                },
+                                {
+                                    "departure_time_local": 1488853962.0,
+                                    "arrival_time": 1488875562.0,
+                                    "trip_id": "1731914",
+                                    "trip_key": "1731914capital-metro",
+                                    "arrival_time_local": 1488853962.0,
+                                    "type": "scheduled",
+                                    "date": "20170307",
+                                    "minutes": 764,
+                                    "departure_time": 1488875562.0
+                                }
+                            ],
+                            "headsign_display_name": "Night Owl Cameron-NB"
+                        }
+                    ],
+                    "route_type": "3",
+                    "route_name": "Night Owl Cameron",
+                    "route_id": "485",
+                    "route_display_name": "485"
+                },
+                {
+                    "schedule_key": "863capital-metro6",
+                    "schedule": [
+                        {
+                            "direction_id": "1",
+                            "headsign": "6-East 12th-EB",
+                            "headsign_schedule": [
+                                {
+                                    "departure_time_local": 1488810119.0,
+                                    "arrival_time": 1488831719.0,
+                                    "trip_id": "1732918",
+                                    "trip_key": "1732918capital-metro",
+                                    "arrival_time_local": 1488810119.0,
+                                    "type": "scheduled",
+                                    "minutes": 33,
+                                    "departure_time": 1488831719.0
+                                },
+                                {
+                                    "departure_time_local": 1488812519.0,
+                                    "arrival_time": 1488834119.0,
+                                    "trip_id": "1732911",
+                                    "trip_key": "1732911capital-metro",
+                                    "arrival_time_local": 1488812519.0,
+                                    "type": "scheduled",
+                                    "minutes": 73,
+                                    "departure_time": 1488834119.0
+                                },
+                                {
+                                    "departure_time_local": 1488814919.0,
+                                    "arrival_time": 1488836519.0,
+                                    "trip_id": "1732917",
+                                    "trip_key": "1732917capital-metro",
+                                    "arrival_time_local": 1488814919.0,
+                                    "type": "scheduled",
+                                    "minutes": 113,
+                                    "departure_time": 1488836519.0
+                                },
+                                {
+                                    "departure_time_local": 1488817019.0,
+                                    "arrival_time": 1488838619.0,
+                                    "trip_id": "1732916",
+                                    "trip_key": "1732916capital-metro",
+                                    "arrival_time_local": 1488817019.0,
+                                    "type": "scheduled",
+                                    "minutes": 148,
+                                    "departure_time": 1488838619.0
+                                },
+                                {
+                                    "departure_time_local": 1488819119.0,
+                                    "arrival_time": 1488840719.0,
+                                    "trip_id": "1732915",
+                                    "trip_key": "1732915capital-metro",
+                                    "arrival_time_local": 1488819119.0,
+                                    "type": "scheduled",
+                                    "minutes": 183,
+                                    "departure_time": 1488840719.0
+                                }
+                            ],
+                            "headsign_display_name": "East 12th-EB"
+                        }
+                    ],
+                    "route_type": "3",
+                    "route_name": "East 12th",
+                    "route_id": "6",
+                    "route_display_name": "6"
+                },
+                {
+                    "schedule_key": "863capital-metro7",
+                    "schedule": [
+                        {
+                            "direction_id": "1",
+                            "headsign": "7-Duval / Dove Springs-NB",
+                            "headsign_schedule": [
+                                {
+                                    "departure_time_local": 1488808328.0,
+                                    "arrival_time": 1488829928.0,
+                                    "trip_id": "1742933",
+                                    "trip_key": "1742933capital-metro",
+                                    "arrival_time_local": 1488808328.0,
+                                    "type": "scheduled",
+                                    "minutes": 3,
+                                    "departure_time": 1488829928.0
+                                },
+                                {
+                                    "departure_time_local": 1488809228.0,
+                                    "arrival_time": 1488830828.0,
+                                    "trip_id": "1742878",
+                                    "trip_key": "1742878capital-metro",
+                                    "arrival_time_local": 1488809228.0,
+                                    "type": "scheduled",
+                                    "minutes": 18,
+                                    "departure_time": 1488830828.0
+                                },
+                                {
+                                    "departure_time_local": 1488810128.0,
+                                    "arrival_time": 1488831728.0,
+                                    "trip_id": "1742908",
+                                    "trip_key": "1742908capital-metro",
+                                    "arrival_time_local": 1488810128.0,
+                                    "type": "scheduled",
+                                    "minutes": 33,
+                                    "departure_time": 1488831728.0
+                                },
+                                {
+                                    "departure_time_local": 1488811028.0,
+                                    "arrival_time": 1488832628.0,
+                                    "trip_id": "1742907",
+                                    "trip_key": "1742907capital-metro",
+                                    "arrival_time_local": 1488811028.0,
+                                    "type": "scheduled",
+                                    "minutes": 48,
+                                    "departure_time": 1488832628.0
+                                },
+                                {
+                                    "departure_time_local": 1488812105.0,
+                                    "arrival_time": 1488833705.0,
+                                    "trip_id": "1742906",
+                                    "trip_key": "1742906capital-metro",
+                                    "arrival_time_local": 1488812105.0,
+                                    "type": "scheduled",
+                                    "minutes": 66,
+                                    "departure_time": 1488833705.0
+                                }
+                            ],
+                            "headsign_display_name": "Duval / Dove Springs-NB"
+                        }
+                    ],
+                    "route_type": "3",
+                    "route_name": "Duval / Dove Springs",
+                    "route_id": "7",
+                    "route_display_name": "7"
+                },
+                {
+                    "schedule_key": "863capital-metro935",
+                    "schedule": [
+                        {
+                            "direction_id": "1",
+                            "headsign": "935-Tech Ridge Express-NB",
+                            "headsign_schedule": [
+                                {
+                                    "departure_time_local": 1488814675.0,
+                                    "arrival_time": 1488836275.0,
+                                    "trip_id": "1744593",
+                                    "trip_key": "1744593capital-metro",
+                                    "arrival_time_local": 1488814675.0,
+                                    "type": "scheduled",
+                                    "minutes": 109,
+                                    "departure_time": 1488836275.0
+                                },
+                                {
+                                    "departure_time_local": 1488815875.0,
+                                    "arrival_time": 1488837475.0,
+                                    "trip_id": "1744592",
+                                    "trip_key": "1744592capital-metro",
+                                    "arrival_time_local": 1488815875.0,
+                                    "type": "scheduled",
+                                    "minutes": 129,
+                                    "departure_time": 1488837475.0
+                                },
+                                {
+                                    "departure_time_local": 1488817075.0,
+                                    "arrival_time": 1488838675.0,
+                                    "trip_id": "1744595",
+                                    "trip_key": "1744595capital-metro",
+                                    "arrival_time_local": 1488817075.0,
+                                    "type": "scheduled",
+                                    "minutes": 149,
+                                    "departure_time": 1488838675.0
+                                },
+                                {
+                                    "departure_time_local": 1488817975.0,
+                                    "arrival_time": 1488839575.0,
+                                    "trip_id": "1744591",
+                                    "trip_key": "1744591capital-metro",
+                                    "arrival_time_local": 1488817975.0,
+                                    "type": "scheduled",
+                                    "minutes": 164,
+                                    "departure_time": 1488839575.0
+                                },
+                                {
+                                    "departure_time_local": 1488819104.0,
+                                    "arrival_time": 1488840704.0,
+                                    "trip_id": "1744585",
+                                    "trip_key": "1744585capital-metro",
+                                    "arrival_time_local": 1488819104.0,
+                                    "type": "scheduled",
+                                    "minutes": 183,
+                                    "departure_time": 1488840704.0
+                                }
+                            ],
+                            "headsign_display_name": "Tech Ridge Express-NB"
+                        }
+                    ],
+                    "route_type": "3",
+                    "route_name": "Tech Ridge Express",
+                    "route_id": "935",
+                    "route_display_name": "935"
+                }
+            ]
+        }
+    ],
+    "success": true
+}

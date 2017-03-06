@@ -37,18 +37,29 @@ router.get('/',function (req,res) {
             endpoints:["option_chains?stock_name=[stock name]","look_up?name=[company name]"]});
 });
 
-router.get('/get-directions',function (req,res) {
-    var config = require('./responces/get-directions.json');
-    console.log(config);
-   res.json(config);
+router.get('/directions/get-directions',function (req,res) {
+    var responce = require('./responces/get-directions.json');
+    console.log(responce);
+   res.json(responce);
 });
 
+router.get('/directions/places',function (req,res) {
+    var responce = require('./responces/places.json');
+    console.log(responce);
+   res.json(responce);
+});
+
+router.get('/transit/schedule-info-today-next',function (req,res) {
+    var responce = require('./responces/schedule-info-today-next.json');
+    console.log(responce);
+    res.json(responce);
+});
 
 // more routes for our API will happen here
 
 // REGISTER OUR ROUTES -------------------------------
 // all of our routes will be prefixed with /api
-app.use('/api', router);
+app.use('/', router);
 
 // START THE SERVER
 // =============================================================================
