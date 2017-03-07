@@ -1,7 +1,7 @@
 {
     "result": [
         {
-            "ridescout_simple_stop_key": "863capital-metro",
+            "ridescout_simple_stop_key": "5978capital-metro",
             "stop_name": "11TH/SAN JACINTO SW CORNER",
             "stop_id": "863",
             "schedule_data": [
@@ -10,7 +10,7 @@
                     "schedule": [
                         {
                             "direction_id": "1",
-                            "headsign": "10-South 1st/Red River-NB",
+                            "headsign": "338,338-Lamar/45th-SB",
                             "headsign_schedule": [
                                 {
                                     "departure_time_local": 1488808810.0,
@@ -63,7 +63,7 @@
                                     "departure_time": 1488836650.0
                                 }
                             ],
-                            "headsign_display_name": "South 1st/Red River-NB"
+                            "headsign_display_name": "338,338-Lamar/45th-SB"
                         }
                     ],
                     "route_type": "3",

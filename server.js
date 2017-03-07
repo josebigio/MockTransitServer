@@ -8,6 +8,8 @@ var express    = require('express');        // call express
 var app        = express();                 // define our app using express
 var bodyParser = require('body-parser');
 
+const DELAY = 3000;
+const PROD_SERVER = "http://rs-gateway.transitsherpa.com";
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
@@ -15,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 var port = process.env.PORT || 1337;        // set our port
-
+var axios = require('axios');
 // ROUTES FOR OUR API
 // =============================================================================
 var router = express.Router();              // get an instance of the express Router
@@ -37,25 +39,35 @@ router.get('/',function (req,res) {
 router.get('/directions/get-directions',function (req,res) {
     var responce = require('./responces/get-directions.json');
     console.log(responce);
-   res.json(responce);
+    setTimeout(()=>{res.json(responce)},DELAY);
 });
 
 router.get('/directions/places',function (req,res) {
-    var responce = require('./responces/places.json');
-    console.log(responce);
-   res.json(responce);
+    axios.get(PROD_SERVER + req.url)
+                .then((response)=>{
+                   console.log(response.data);
+                   res.json(response.data);
+                }).catch((error)=>{
+                    console.log(error);
+                    res.json(error);
+                });
 });
 
 router.get('/directions/reverse-geocode',function (req,res) {
-    var responce = require('./responces/reverse-geocode.json');
-    console.log(responce);
-   res.json(responce);
+     axios.get(PROD_SERVER + req.url)
+                .then((response)=>{
+                   console.log(response.data);
+                   res.json(response.data);
+                }).catch((error)=>{
+                    console.log(error);
+                    res.json(error);
+                });
 });
 
 router.get('/transit/schedule-info-today-next',function (req,res) {
     var responce = require('./responces/schedule-info-today-next.json');
     console.log(responce);
-    res.json(responce);
+    setTimeout(()=>{res.json(responce)},DELAY);
 });
 
 // more routes for our API will happen here
