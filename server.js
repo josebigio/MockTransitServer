@@ -8,7 +8,7 @@ var express    = require('express');        // call express
 var app        = express();                 // define our app using express
 var bodyParser = require('body-parser');
 
-const DELAY = 3000;
+const DELAY = 0;
 const PROD_SERVER = "http://rs-gateway.transitsherpa.com";
 
 // configure app to use bodyParser()
